@@ -104,7 +104,7 @@ select.field option{background:var(--card)}
 .glabels{display:flex;gap:4px}
 .glabel{flex:1;text-align:center;font-family:'JetBrains Mono',monospace;font-size:0.53rem}
 
-/* BACKS */
+/* Other */
 .back-card{background:var(--card);border:1px solid rgba(240,90,126,0.14);border-radius:11px;padding:14px;margin-bottom:9px}
 .back-hd{display:flex;justify-content:space-between;align-items:center;margin-bottom:9px}
 .back-title{font-size:0.92rem;font-weight:700;color:var(--red)}
@@ -213,7 +213,7 @@ select.field option{background:var(--card)}
   <div class="tab"         onclick="go('tasks',this)">Tasks</div>
   <div class="tab"         onclick="go('analytics',this)">Analytics</div>
   <div class="tab"         onclick="go('syllabus',this)">Syllabus</div>
-  <div class="tab"         onclick="go('backs',this)">Backs</div>
+  <div class="tab"         onclick="go('backs',this)">Other</div>
   <div class="tab"         onclick="go('habits',this)">Habits</div>
   <div class="tab tab-secret" onclick="go('projects',this)">···</div>
 </div>
@@ -249,7 +249,7 @@ select.field option{background:var(--card)}
       <option value="">Subject</option>
       <option>Math</option><option>Physics</option><option>DE</option>
       <option>OOP</option><option>IKS</option><option>IDA</option>
-      <option>Web Dev</option><option>CP Back</option><option>Math Back</option>
+      <option>Web Dev</option><option>CP</option><option>Math</option>
     </select>
     <div class="row2">
       <input class="field" id="t-unit" placeholder="Unit (e.g. Unit 3)" />
@@ -304,12 +304,13 @@ select.field option{background:var(--card)}
   <div id="syl-content"></div>
 </div>
 
-<!-- BACKS -->
+<!-- Other -->
 <div id="pg-backs" class="page">
   <div style="background:var(--redfade);border:1px solid rgba(240,90,126,0.18);border-radius:10px;padding:11px;margin-bottom:12px">
-    <p style="font-size:0.76rem;color:var(--red);font-weight:500">⚠️ 2 Back Subjects — Review at least one topic every weekend.</p>
+    <p style="font-size:0.76rem;color:var(--red);font-weight:500">
+..</p>
   </div>
-  <div id="backs-content"></div>
+  <div id="Other"></div>
 </div>
 
 <!-- HABITS -->
